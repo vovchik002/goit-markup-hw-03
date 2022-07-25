@@ -243,39 +243,40 @@ text-align: center;}
 
 .footer-list {
   background-color: #2f303a;
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
+footer {padding-top: 60px;
+  padding-bottom: 60px;}
+
 .footer-adress {
   padding-left: 0;
   
 }
+.logo-footer {font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  }
+
 
 .logo-footer > span {
+  color: #ffffff; margin-bottom: 20px;
+}
+.footer-logo{margin-bottom: 20px;}
+.footer-item {
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 9px;
+}
+.footer-item:last-child {margin-bottom: 0;}
+.address-link {
   color: #ffffff;
-  margin-bottom: 20px;
+
 }
 
-.address-link {
-  font-size: 14px;
-  line-height: calc(24 / 14);
-  letter-spacing: 0.03em;
-  color: #ffffff;
-  margin-bottom: 9px;
-}
-.footer-mail {
-  font-size: 14px;
-  line-height: calc(24 / 14);
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-  margin-bottom: 9px;
-}
-.footer-number {
-  font-size: 14px;
-  line-height: calc(24 / 14);
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-}
 .address-link:hover,
 .address-link:focus {
   color: var(--basic-color);
@@ -285,6 +286,7 @@ text-align: center;}
 .footer-list:focus {
   color: var(--basic-color);
 }
+.header-portfolio {border-bottom: 1px solid #ECECEC;;}
 
 .list-btn {
 }
@@ -343,4 +345,5 @@ text-align: center;}
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
   color: var(--color-paragraph);
+
 }
