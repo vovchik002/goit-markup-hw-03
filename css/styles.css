@@ -72,7 +72,7 @@ img {
 }
 .header-list {
   display: flex;
-  gap: 50px;
+  gap: 30px;
 }
 .header-list {padding-left: 0;}
 
